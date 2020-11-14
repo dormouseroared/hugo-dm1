@@ -1,0 +1,30 @@
+test basic list.html in layouts/list.html <br>
+<h1>{{ .Site.Title }}</h1>
+
+<br><br>
+<hr>
+<h2>range .Pages</h2> <br>
+{{ range .Pages }}
+    Permalink: {{ .Permalink }} <br>
+    Title: {{ .Title }} <br>
+    {{ .Content }}
+    <hr>
+{{ end }}
+<br> <br>
+<hr>
+<h2>range .Site.Pages </h2><br>
+{{ range .Site.Pages }}
+    Permalink: {{ .Permalink }} <br>
+    Title: {{ .Title }} <br>
+    {{ .Content }}
+    <hr>
+{{ end }}
+<br> <br>
+<hr>
+<h2>range .Site.RegularPages </h2><br>
+{{ range .Site.RegularPages }}
+    Permalink: <a href="{{ .Permalink }}">{{ .Title }}</a> <br>
+    Title: {{ .Title }} <br>
+    {{ .Content }}
+    <hr>
+{{ end }}

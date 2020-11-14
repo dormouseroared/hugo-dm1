@@ -1,0 +1,12 @@
+test basic single.html in layouts/_default
+
+<h1>{{ .Title }}</h1>
+
+<p>Posted {{ .Date.Format "January 2, 2006" }}</p>
+
+<p>Summary:</p>
+<p>{{ .Summary }}</p>
+
+<p>Content:</p>
+
+{{ .Content }}
