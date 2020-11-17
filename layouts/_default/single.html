@@ -1,12 +1,74 @@
-test basic single.html in layouts/_default
+<strong>test basic single.html in layouts/_default</strong>
 
 <h1>{{ .Title }}</h1>
 
-<p>Posted {{ .Date.Format "January 2, 2006" }}</p>
+<p><strong> Posted </strong>{{ .Date.Format "January 2, 2006" }}</p>
 
-<p>Summary:</p>
+<p><strong> Summary:</strong></p>
 <p>{{ .Summary }}</p>
 
-<p>Content:</p>
+<p><strong> Content:</strong></p>
 
 {{ .Content }}
+
+<p>Aliases: {{ .Aliases }}</p>
+<p>Data: {{ .Data }}</p>
+<p>ExpiryDate: {{ .ExpiryDate }}</p>
+<p>PublishDate: {{ .PublishDate }}</p>
+<p>Lastmod: {{ .Lastmod }}</p>
+<p>Description: {{ .Description }}</p>
+<p>Dir: {{ .Dir }}</p>
+<p>Draft: {{ .Draft }}</p>
+<p>File: {{ .File }}</p>
+<p>FuzzyWordCount: {{ .FuzzyWordCount }}</p>
+<p>Hugo: {{ .Hugo }}</p>
+<p>IsHome: {{ .IsHome }}</p>
+<p>IsNode: {{ .IsNode }}</p>
+<p>IsPage: {{ .IsPage }}</p>
+<p>IsSection: {{ .IsSection }}</p>
+<p>IsTranslated: {{ .IsTranslated }}</p>
+<p>Keywords: {{ .Keywords }}</p>
+<p>Kind: {{ .Kind }}</p>
+<p>Language: {{ .Language }}</p>
+<p>LinkTitle: {{ .LinkTitle }}</p>
+<p>Next: {{ .Next }}</p>
+<p>NextInSection: {{ .NextInSection }}</p>
+<p>OutputFormats: {{ .OutputFormats }}</p>
+<p>Pages: {{ .Pages }}</p>
+<p>Permalink: {{ .Permalink }}</p>
+<p>Plain: {{ .Plain }}</p>
+<p>PlainWords: {{ .PlainWords }}</p>
+<p>Prev: {{ .Prev }}</p>
+<p>PrevInSection: {{ .PrevInSection }}</p>
+<p>RSSLink: {{ .RSSLink }}</p>
+<p>RawContent: {{ .RawContent }}</p>
+<p>ReadingTime: {{ .ReadingTime }}</p>
+<p>Resources: {{ .Resources }}</p>
+{{/*  <p>Ref: {{ .Ref }}</p>  */}}
+<p>RelPermalink: {{ .RelPermalink }}</p>
+{{/*  <p>RelRef: {{ .RelRef }}</p>  */}}
+<p>Site: {{ .Site }}</p>
+<p>Sites: {{ .Sites }}</p>
+<p>Sites.First: {{ .Sites.First }}</p>
+<p>TableOfContents: {{ .TableOfContents }}</p>
+<p>Translations: {{ .Translations }}</p>
+<p>TranslationKey: {{ .TranslationKey }}</p>
+<p>Truncated: {{ .Truncated }}</p>
+<p>Type: {{ .Type }}</p>
+<p>UniqueID: {{ .UniqueID }}</p>
+<p>File.UniqueID: {{ .File.UniqueID }}</p>
+<p>Weight: {{ .Weight }}</p>
+<p>WordCount: {{ .WordCount }}</p>
+<p>CurrentSection: {{ .CurrentSection }}</p>
+<p>FirstSection: {{ .FirstSection }}</p>
+<p>Parent: {{ .Parent }}</p>
+<p>Section: {{ .Section }}</p>
+<p>Sections: {{ .Sections }}</p>
+<p>Pages (alias for .Data.Pages): {{ .Pages }}</p>
+<p>Data.Pages: {{ .Data.Pages }}</p>
+<p>Site.Pages: {{ .Site.Pages }}</p>
+<p>Site.RegularPages: {{ .Site.RegularPages }}</p>
+<p>Params.Categories: {{ .Params.Categories }}</p>
+<p>Params.Tags: {{ .Params.Tags }}</p>
+<p>Params.recommended: {{ .Params.recommended }}</p>
+<p>Year: {{ now.Format "2006" }}</p>

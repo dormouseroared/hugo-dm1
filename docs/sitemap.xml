@@ -3,15 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>htts://dormouseroared.github.io/hugo-dm1/categories/</loc>
+    <loc>/</loc>
+    <lastmod>2020-11-14T21:38:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>htts://dormouseroared.github.io/hugo-dm1/</loc>
+    <loc>/newsletter/latest-cool-stuff/</loc>
+    <lastmod>2020-11-14T21:38:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>htts://dormouseroared.github.io/hugo-dm1/tags/</loc>
+    <loc>/newsletter/</loc>
+    <lastmod>2020-11-14T21:38:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-10/</loc>
+    <lastmod>2020-11-14T21:30:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/</loc>
+    <lastmod>2020-11-14T21:30:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-09/</loc>
+    <lastmod>2020-11-14T21:30:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-08/</loc>
+    <lastmod>2020-11-14T21:30:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-07/</loc>
+    <lastmod>2020-11-14T21:30:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-06/</loc>
+    <lastmod>2020-11-14T21:30:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-05/</loc>
+    <lastmod>2020-11-14T21:29:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-04/</loc>
+    <lastmod>2020-11-14T21:29:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-03/</loc>
+    <lastmod>2020-11-14T21:29:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-02/</loc>
+    <lastmod>2020-11-14T21:29:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cool/cool-item-01/</loc>
+    <lastmod>2020-11-14T21:28:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-11-14T16:40:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/second-entry-in-blog/</loc>
+    <lastmod>2020-11-14T16:40:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/first-entry-in-blog/</loc>
+    <lastmod>2020-11-14T12:16:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

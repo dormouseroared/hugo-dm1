@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>green | hugo-dm1 | testing out the basics plus github deploy</title>
-    <link>/</link>
-    <description>Recent content on green | hugo-dm1 | testing out the basics plus github deploy</description>
+    <title>Cools on green | hugo-dm1 | testing out the basics plus github deploy</title>
+    <link>/cool/</link>
+    <description>Recent content in Cools on green | hugo-dm1 | testing out the basics plus github deploy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 21:38:43 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Latest Cool Stuff</title>
-      <link>/newsletter/latest-cool-stuff/</link>
-      <pubDate>Sat, 14 Nov 2020 21:38:43 +0000</pubDate>
-      
-      <guid>/newsletter/latest-cool-stuff/</guid>
-      <description>** Insert lead paragraph here **
-New Cool Posts </description>
-    </item>
-    
+    <lastBuildDate>Sat, 14 Nov 2020 21:30:46 +0000</lastBuildDate><atom:link href="/cool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cool Item 10</title>
       <link>/cool/cool-item-10/</link>
@@ -105,30 +95,6 @@ New Cool Posts </description>
       
       <guid>/cool/cool-item-01/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Second Entry in Blog</title>
-      <link>/blog/second-entry-in-blog/</link>
-      <pubDate>Sat, 14 Nov 2020 16:40:35 +0000</pubDate>
-      
-      <guid>/blog/second-entry-in-blog/</guid>
-      <description>$&amp;gt; hugo new post/post-name.md │ │ │ │ │ │ │ └─ name of the content being generated │ │ └─ type of the content being generated │ └─ generator command to create new content └─ hugo command </description>
-    </item>
-    
-    <item>
-      <title>First Entry in Blog</title>
-      <link>/blog/first-entry-in-blog/</link>
-      <pubDate>Sat, 14 Nov 2020 12:16:27 +0000</pubDate>
-      
-      <guid>/blog/first-entry-in-blog/</guid>
-      <description>START This is the first entry in blog
-create new blog/a-b-c-d.md FINISH
-try out shortcode for tweet  ⚡️LINK TO WATCH THE PREMIERE⚡️ of #BeaversWithoutBorders is HERE!! 🎬🦫🐾
-Click @ 19:00 TONIGHT to be the first to watch, then stay for LIVE Q&amp;amp;A with @ninaconstable &amp;amp; @sophiepavs!
-➡️ https://t.co/4CzJyCnksJ
-Register here for event details &amp;amp; reminders 🔔 https://t.co/hdVBJPp0eg pic.twitter.com/UIBX36LnTC
-&amp;mdash; Beaver Trust (@BeaverTrust) November 15, 2020   </description>
     </item>
     
   </channel>

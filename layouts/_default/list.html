@@ -28,3 +28,10 @@ test basic list.html in layouts/list.html <br>
     {{ .Content }}
     <hr>
 {{ end }}
+<h2>range .RegularPagesRecursive </h2><br>
+{{ range .RegularPagesRecursive }}
+    Permalink: <a href="{{ .Permalink }}">{{ .Title }}</a> <br>
+    Title: {{ .Title }} <br>
+    {{ .Content }}
+    <hr>
+{{ end }}
